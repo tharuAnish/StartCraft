@@ -16,6 +16,7 @@ import Weather from "./Components/14Weather"
 import SearchItems from "./Components/15SearchItems"
 import Pagination from "./Components/16Pagination"
 import ColorPicker from "./Components/17ColorPicker"
+import ResponsiveMenu from "./Components/18ResponsiveMenu"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -40,7 +41,8 @@ export default function App() {
       {/* <Weather /> */}
       {/* <SearchItems items={items} /> */}
       {/* <Pagination items={items} itemsPerPage={2} /> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      <ResponsiveMenu />
     </div>
   )
 }
