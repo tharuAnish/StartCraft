@@ -12,6 +12,7 @@ import ReactRouter from "./Components/10ReactRouter"
 import RandomQuote from "./Components/11RandomQuote"
 import ImageUpload from "./Components/12ImageUpload"
 import Login from "./Components/13Login"
+import Weather from "./Components/14Weather"
 
 export default function App() {
   return (
@@ -30,7 +31,8 @@ export default function App() {
       {/* <ReactRouter /> */}
       {/* <RandomQuote /> */}
       {/* <ImageUpload /> */}
-      <Login />
+      {/* <Login /> */}
+      <Weather />
     </div>
   )
 }
