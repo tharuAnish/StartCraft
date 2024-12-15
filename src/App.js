@@ -13,8 +13,12 @@ import RandomQuote from "./Components/11RandomQuote"
 import ImageUpload from "./Components/12ImageUpload"
 import Login from "./Components/13Login"
 import Weather from "./Components/14Weather"
+import SearchItems from "./Components/15SearchItems"
+import Pagination from "./Components/16Pagination"
 
 export default function App() {
+  const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
+
   return (
     <div>
       <h2>React Practice:</h2>
@@ -32,7 +36,9 @@ export default function App() {
       {/* <RandomQuote /> */}
       {/* <ImageUpload /> */}
       {/* <Login /> */}
-      <Weather />
+      {/* <Weather /> */}
+      {/* <SearchItems items={items} /> */}
+      <Pagination items={items} itemsPerPage={2} />
     </div>
   )
 }
