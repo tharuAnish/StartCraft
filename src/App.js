@@ -15,9 +15,10 @@ import Login from "./Components/13Login"
 import Weather from "./Components/14Weather"
 import SearchItems from "./Components/15SearchItems"
 import Pagination from "./Components/16Pagination"
+import ColorPicker from "./Components/17ColorPicker"
 
 export default function App() {
-  const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
+  // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
 
   return (
     <div>
@@ -38,7 +39,8 @@ export default function App() {
       {/* <Login /> */}
       {/* <Weather /> */}
       {/* <SearchItems items={items} /> */}
-      <Pagination items={items} itemsPerPage={2} />
+      {/* <Pagination items={items} itemsPerPage={2} /> */}
+      <ColorPicker />
     </div>
   )
 }
