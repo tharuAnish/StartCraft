@@ -17,6 +17,9 @@ import SearchItems from "./Components/15SearchItems"
 import Pagination from "./Components/16Pagination"
 import ColorPicker from "./Components/17ColorPicker"
 import ResponsiveMenu from "./Components/18ResponsiveMenu"
+import LightDarkMode from "./Components/19LightDarkMode"
+import Comp from "./Components/19Comp"
+import { ThemeProvider } from "./Components/19ThemeContext"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -42,7 +45,13 @@ export default function App() {
       {/* <SearchItems items={items} /> */}
       {/* <Pagination items={items} itemsPerPage={2} /> */}
       {/* <ColorPicker /> */}
-      <ResponsiveMenu />
+      {/* <ResponsiveMenu /> */}
+      <ThemeProvider>
+        <div className="App">
+          <LightDarkMode />
+          <Comp />
+        </div>
+      </ThemeProvider>
     </div>
   )
 }

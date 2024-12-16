@@ -1,0 +1,11 @@
+.light-theme {
+  background-color: antiquewhite;
+  color: gray;
+  height: 200px;
+}
+
+.dark-theme {
+  background-color: gray;
+  color: antiquewhite;
+  height: 200px;
+}
