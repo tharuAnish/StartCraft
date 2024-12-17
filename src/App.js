@@ -20,6 +20,8 @@ import ResponsiveMenu from "./Components/18ResponsiveMenu"
 import LightDarkMode from "./Components/19LightDarkMode"
 import Comp from "./Components/19Comp"
 import { ThemeProvider } from "./Components/19ThemeContext"
+import ShoppingCart from "./Components/20ShoppingCart"
+import { CartProvider } from "./Components/20CartContext"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -46,12 +48,15 @@ export default function App() {
       {/* <Pagination items={items} itemsPerPage={2} /> */}
       {/* <ColorPicker /> */}
       {/* <ResponsiveMenu /> */}
-      <ThemeProvider>
+      {/* <ThemeProvider>
         <div className="App">
           <LightDarkMode />
           <Comp />
         </div>
-      </ThemeProvider>
+      </ThemeProvider> */}
+      <CartProvider>
+        <ShoppingCart />
+      </CartProvider>
     </div>
   )
 }
