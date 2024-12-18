@@ -23,6 +23,7 @@ import { ThemeProvider } from "./Components/19ThemeContext"
 import ShoppingCart from "./Components/20ShoppingCart"
 import { CartProvider } from "./Components/20CartContext"
 import UseReducerCounter from "./Components/21UseReducerCounter"
+import UseReducerToDo from "./Components/22UseReducerToDo"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -31,7 +32,8 @@ export default function App() {
     <div>
       <h2>React Practice:</h2>
       <hr />
-      <UseReducerCounter />
+      <UseReducerToDo />
+      {/* <UseReducerCounter /> */}
       {/* <CartProvider>
         <ShoppingCart />
       </CartProvider> */}
