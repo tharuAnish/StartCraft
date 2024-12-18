@@ -30,6 +30,9 @@ export default function App() {
     <div>
       <h2>React Practice:</h2>
       <hr />
+      <CartProvider>
+        <ShoppingCart />
+      </CartProvider>
       {/* <HelloWorld /> */}
       {/* <Counter /> */}
       {/* <UserInput /> */}
@@ -54,9 +57,6 @@ export default function App() {
           <Comp />
         </div>
       </ThemeProvider> */}
-      <CartProvider>
-        <ShoppingCart />
-      </CartProvider>
     </div>
   )
 }
