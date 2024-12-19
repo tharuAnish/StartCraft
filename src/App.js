@@ -27,6 +27,7 @@ import UseReducerToDo from "./Components/22UseReducerToDo"
 import UseReducerPagination from "./Components/23UseReducerPagination"
 import UseContextAuthentication from "./Components/24useContextAuthentication"
 import { AuthProvider } from "./Components/24AuthContext"
+import DraggableCmponent from "./Components/25DraggableCmponent"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -35,9 +36,10 @@ export default function App() {
     <div>
       <h2>React Practice:</h2>
       <hr />
-      <AuthProvider>
+      <DraggableCmponent />
+      {/* <AuthProvider>
         <UseContextAuthentication />
-      </AuthProvider>
+      </AuthProvider> */}
       {/* <UseReducerPagination /> */}
       {/* <UseReducerToDo /> */}
       {/* <UseReducerCounter /> */}
