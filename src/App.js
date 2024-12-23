@@ -31,6 +31,7 @@ import DraggableCmponent from "./Components/25DraggableCmponent"
 import TranslationApp from "./Components/26TranslationApp"
 import { LocalizationProvider } from "./Components/26LocalizationContext"
 import FetchMultipleAPIs from "./Components/27FetchMultipleAPIs"
+import MultipleStateInOneState from "./Components/28MultipleStateInOneState"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -39,7 +40,8 @@ export default function App() {
     <div>
       <h2>React Practice:</h2>
       <hr />
-      <FetchMultipleAPIs />
+      <MultipleStateInOneState />
+      {/* <FetchMultipleAPIs /> */}
       {/* <LocalizationProvider>
         <TranslationApp />
       </LocalizationProvider> */}
