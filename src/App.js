@@ -34,6 +34,7 @@ import FetchMultipleAPIs from "./Components/27FetchMultipleAPIs"
 import MultipleStateInOneState from "./Components/28MultipleStateInOneState"
 import ImageGallery from "./Components/29ImageGallery"
 import UpdateDocumentTitle from "./Components/30UpdateDocumentTitle"
+import Todo from "./Components/ToDoApp/ToDo"
 
 export default function App() {
   // const items = ["1Notebook", "2Pen", "3Laptop", "4Book", "5Wallet", "6Keys"]
@@ -42,7 +43,8 @@ export default function App() {
     <div>
       <h2>React Practice:</h2>
       <hr />
-      <UpdateDocumentTitle />
+      <Todo />
+      {/* <UpdateDocumentTitle /> */}
       {/* <ImageGallery /> */}
       {/* <MultipleStateInOneState /> */}
       {/* <FetchMultipleAPIs /> */}
